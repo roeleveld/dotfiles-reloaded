@@ -35,10 +35,10 @@ After backing up your old Mac you may now follow these install instructions to s
    curl https://raw.githubusercontent.com/driesvints/dotfiles/HEAD/ssh.sh | sh -s "<your-email-address>"
    ```
 
-3. Clone this repo to `~/.dotfiles` with:
+3. Clone this **FORKED** repo to `~/.dotfiles` with:
 
     ```zsh
-    git clone --recursive git@github.com:driesvints/dotfiles.git ~/.dotfiles
+    git clone --recursive git@github.com:roeleveld/dotfiles-reloaded.git ~/.dotfiles
     ```
 
 4. Run the installation with:
