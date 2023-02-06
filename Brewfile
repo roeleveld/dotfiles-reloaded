@@ -4,10 +4,10 @@ tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
+tap "homebrew/core"
 # tap 'stripe/stripe-cli'
 
 # Binaries
-# brew 'awscli'
 brew 'bash' # Latest Bash version
 brew 'bat' # Used for spatie/visit
 brew 'coreutils' # Those that come with macOS are outdated
@@ -15,14 +15,16 @@ brew 'ffmpeg'
 brew 'gh'
 brew 'git'
 brew 'grep'
-# brew 'httpie'
-# brew 'jq' # Used for spatie/visit
 brew 'mackup'
+brew "tree"
+brew "wget"
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-# brew 'stripe/stripe-cli/stripe'
-# brew 'stripe/stripe-mock/stripe-mock'
 brew 'svn' # Needed to install fonts
+
+# from webpro
+brew "thefuck"
+brew "topgrade"
 
 # Spatie Medialibrary
 brew 'jpegoptim'
@@ -37,11 +39,8 @@ brew 'gifsicle'
 # brew 'php@7.4'
 # brew 'composer'
 brew 'imagemagick'
-# brew 'meilisearch'
-brew 'mysql'
-# brew 'nginx'
+brew 'ffmpeg'
 brew 'node'
-# brew 'redis'
 brew 'yarn'
 
 # Apps
