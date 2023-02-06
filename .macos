@@ -2,7 +2,7 @@ COMPUTER_NAME="P.A. System"
 LANGUAGES=(en nl)
 LOCALE="en_US@currency=USD"
 MEASUREMENT_UNITS="Inches"
-SCREENSHOTS_FOLDER="${HOME}/Dropbox/Screenshots"
+SCREENSHOTS_FOLDER="${HOME}/Library/CloudStorage/Dropbox"
 
 # Topics
 #
